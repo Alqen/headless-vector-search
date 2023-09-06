@@ -1,6 +1,6 @@
 # Alqen Wiki
 
-**Main Keywords:**
+## Main Keywords:
 
 -   E-commerce
 
@@ -41,9 +41,9 @@
     adding in needed columns to fit your business needs across
     platforms.
 
-**Product Research Tools:**
+## Product Research Tools:
 
-**Competitor Lookup:** The Competitor Lookup tool is designed to provide
+### Competitor Lookup:** The Competitor Lookup tool is designed to provide
 sellers with a comprehensive understanding of their competitors\'
 performance on Amazon. By entering specific criteria such as category,
 keyword, brand, seller, or ASIN, sellers can obtain an accurate market
@@ -62,8 +62,7 @@ overview.
     compare products, and refine your strategies to outshine your
     rivals.
 
-**\
-Detailed Benefits:**
+**Detailed Benefits:**
 
 -   **Category Insights:** Explore specific Amazon categories or all
     categories for a complete understanding of the market.
@@ -89,7 +88,7 @@ Detailed Benefits:**
     keyword \"Bamboo pillow\" to understand the competition, pricing,
     ratings, and more.
 
-**Product Research:** The Product Research tool is a comprehensive feature
+### Product Research: The Product Research tool is a comprehensive feature
 that allows sellers to dive deep into specific products on Amazon. With
 access to a vast database containing over 20,000,000+ listings updated
 daily, sellers can analyze and make informed decisions ranging from
@@ -147,11 +146,8 @@ product selection to competitor tracking.
 
 ---
 
-**Market Research:** The Market Research tool offers sellers a
-comprehensive overview of over 20,000+ sub-markets across leading
-e-commerce platforms, starting with Amazon and Walmart. This tool
-enables sellers to delve deep into specific market segments and
-understand their dynamics.
+### Market Research:
+The Market Research tool offers sellers a comprehensive overview of over 20,000+ sub-markets across leading e-commerce platforms, starting with Amazon and Walmart. This tool enables sellers to delve deep into specific market segments and understand their dynamics.
 
 **Overview:**
 
