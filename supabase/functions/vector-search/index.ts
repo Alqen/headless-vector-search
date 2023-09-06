@@ -3,7 +3,12 @@ import { serve } from "std/http/server.ts";
 import { createClient } from "@supabase/supabase-js";
 import { codeBlock, oneLine } from "commmon-tags";
 import GPT3Tokenizer from "gpt3-tokenizer";
-import { Configuration, CreateCompletionRequest, OpenAIApi } from "openai";
+import {
+  Configuration,
+  CreateChatCompletionRequest,
+  CreateCompletionRequest,
+  OpenAIApi,
+} from "openai";
 import { ensureGetEnv } from "../_utils/env.ts";
 import { ApplicationError, UserError } from "../_utils/errors.ts";
 
@@ -97,7 +102,7 @@ serve(async (req) => {
       contextText += `${content.trim()}\n---\n`;
     }
 
-    const prompt = codeBlock`
+    const systemData = codeBlock`
       ${oneLine`
         You are a very enthusiastic Alqen representative who loves
         to help people! Given the following sections from the Alqen
@@ -110,23 +115,41 @@ serve(async (req) => {
       Context sections:
       ${contextText}
 
-      Question: """
-      ${sanitizedQuery}
-      """
-
       Answer as markdown (including related code snippets if available):
     `;
 
-    const completionOptions: CreateCompletionRequest = {
-      model: "text-davinci-003",
-      prompt,
+    const completionOptions: CreateChatCompletionRequest = {
+      model: "gpt-3.5-turbo",
+      messages: [
+        { "role": "system", content: systemData },
+        { "role": "user", content: "What are the core features of Alqen?" },
+        {
+          "role": "assistant",
+          content:
+            "The core features of Alqen are: Marketplace Selection, Geo Region Selection, Tagging, Filter by Tags, Spreadsheet-like Interface, Export Capabilities, and Customizable Views.",
+        },
+        { role: "user", content: "What tools does Alqen offer?" },
+        {
+          role: "assistant",
+          content:
+            "Alqen offers a variety of tools. They are grouped into Product Research, Keyword Research, and Free tools.",
+        },
+        { role: "user", content: "What are the Product Research tools?" },
+        {
+          role: "assistant",
+          content:
+            "Competitor Lookup, Product Research, Market Research, Brand Search Terms, Related Products, Storefront Tracker, and Product & Keyword Tracker",
+        },
+        { "role": "user", content: sanitizedQuery },
+      ],
+      // prompt,
       max_tokens: 512,
       temperature: 0,
       stream: true,
     };
 
     // The Fetch API allows for easier response streaming over the OpenAI client.
-    const response = await fetch("https://api.openai.com/v1/completions", {
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
       headers: {
         Authorization: `Bearer ${OPENAI_KEY}`,
         "Content-Type": "application/json",
