@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vector Search</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <form @submit="onSubmit">
+      <input type="text" v-model="query" placeholder="Type your question..." />
+      <button type="submit" :disabled="isLoading">Search</button>
+    </form>
+    <div v-if="isLoading">Loading...</div>
+    <div v-else>{{ answer }}</div>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref } = Vue
+
+    createApp({
+      setup() {
+        const query = ref('')
+        const isLoading = ref(false)
+        const answer = ref('')
+
+        const onSubmit = (e) => {
+          e.preventDefault()
+          answer.value = ""
+          isLoading.value = true
+
+          const queryParam = new URLSearchParams({ query: query.value })
+          const projectURL = `https://nvppalkrpajdsyxrrnxw.functions.supabase.co`
+          const queryURL = `${projectURL}/${queryParam}`
+          const eventSource = new EventSource(queryURL)
+
+          eventSource.addEventListener("error", (err) => {
+            isLoading.value = false
+            console.error(err)
+          })
+
+          eventSource.addEventListener("message", (e) => {
+            isLoading.value = false
+
+            if (e.data === "[DONE]") {
+              eventSource.close()
+              return
+            }
+
+            const completionResponse = JSON.parse(e.data)
+            const text = completionResponse.choices[0].text
+
+            answer.value += text
+          });
+        }
+
+        return {
+          query,
+          isLoading,
+          answer,
+          onSubmit
+        }
+      }
+    }).mount('#app')
+  </script>
+</body>
+
+</html>
