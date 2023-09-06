@@ -89,10 +89,7 @@ Detailed Benefits:**
     keyword \"Bamboo pillow\" to understand the competition, pricing,
     ratings, and more.
 
-\_\_\_\_\_---
-**\
-\
-Product Research:** The Product Research tool is a comprehensive feature
+**Product Research:** The Product Research tool is a comprehensive feature
 that allows sellers to dive deep into specific products on Amazon. With
 access to a vast database containing over 20,000,000+ listings updated
 daily, sellers can analyze and make informed decisions ranging from
