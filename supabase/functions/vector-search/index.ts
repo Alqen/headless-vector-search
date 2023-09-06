@@ -30,6 +30,7 @@ serve(async (req) => {
       return new Response("ok", { headers: corsHeaders });
     }
 
+    console.log(req.url);
     const query = new URL(req.url).searchParams.get("query");
 
     if (!query) {
@@ -60,7 +61,7 @@ serve(async (req) => {
     if (embeddingResponse.status !== 200) {
       throw new ApplicationError(
         "Failed to create embedding for question",
-        embeddingResponse
+        embeddingResponse,
       );
     }
 
@@ -73,7 +74,7 @@ serve(async (req) => {
         match_threshold: 0.78,
         match_count: 10,
         min_content_length: 50,
-      }
+      },
     );
 
     if (matchError) {
@@ -156,7 +157,7 @@ serve(async (req) => {
         {
           status: 400,
           headers: corsHeaders,
-        }
+        },
       );
     } else if (err instanceof ApplicationError) {
       // Print out application errors with their additional data
@@ -174,7 +175,7 @@ serve(async (req) => {
       {
         status: 500,
         headers: corsHeaders,
-      }
+      },
     );
   }
 });

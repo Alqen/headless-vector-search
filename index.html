@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vector Search</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vector Search</title>
-</head>
+  <body>
+    <div id="app">
+      <form @submit="onSubmit">
+        <input
+          type="text"
+          v-model="query"
+          placeholder="Type your question..."
+        />
+        <button type="submit" :disabled="isLoading">Search</button>
+      </form>
+      <div v-if="isLoading">Loading...</div>
+      <div v-else v-html="html"></div>
+    </div>
 
-<body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"
+      integrity="sha512-SYfDUYPg5xspsG6OOpXU366G8SZsdHOhqk/icdrYJ2E/WKZxPxze7d2HD3AyXpT7U22PZ5y74xRpqZ6A2bJ+kQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      const { createApp, ref, computed } = Vue
+      const markdown = window.markdownit()
 
-  <div id="app">
-    <form @submit="onSubmit">
-      <input type="text" v-model="query" placeholder="Type your question..." />
-      <button type="submit" :disabled="isLoading">Search</button>
-    </form>
-    <div v-if="isLoading">Loading...</div>
-    <div v-else>{{ answer }}</div>
-  </div>
+      createApp({
+        setup() {
+          const query = ref('')
+          const isLoading = ref(false)
+          const answer = ref('')
+          const html = computed(() => markdown.render(answer.value))
 
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script>
-    const { createApp, ref } = Vue
+          const onSubmit = (e) => {
+            e.preventDefault()
+            answer.value = ''
+            isLoading.value = true
 
-    createApp({
-      setup() {
-        const query = ref('')
-        const isLoading = ref(false)
-        const answer = ref('')
+            const queryParam = new URLSearchParams({ query: query.value })
+            const projectURL = `https://nvppalkrpajdsyxrrnxw.supabase.co/functions/v1/vector-search`
+            const queryURL = `${projectURL}?${queryParam}`
+            const eventSource = new EventSource(queryURL)
 
-        const onSubmit = (e) => {
-          e.preventDefault()
-          answer.value = ""
-          isLoading.value = true
+            eventSource.addEventListener('error', (err) => {
+              isLoading.value = false
+              console.error(err)
+            })
 
-          const queryParam = new URLSearchParams({ query: query.value })
-          const projectURL = `https://nvppalkrpajdsyxrrnxw.functions.supabase.co`
-          const queryURL = `${projectURL}/${queryParam}`
-          const eventSource = new EventSource(queryURL)
+            eventSource.addEventListener('message', (e) => {
+              isLoading.value = false
 
-          eventSource.addEventListener("error", (err) => {
-            isLoading.value = false
-            console.error(err)
-          })
+              if (e.data === '[DONE]') {
+                eventSource.close()
+                return
+              }
 
-          eventSource.addEventListener("message", (e) => {
-            isLoading.value = false
+              const completionResponse = JSON.parse(e.data)
+              const text = completionResponse.choices[0].text
 
-            if (e.data === "[DONE]") {
-              eventSource.close()
-              return
-            }
+              answer.value += text
+            })
+          }
 
-            const completionResponse = JSON.parse(e.data)
-            const text = completionResponse.choices[0].text
-
-            answer.value += text
-          });
-        }
-
-        return {
-          query,
-          isLoading,
-          answer,
-          onSubmit
-        }
-      }
-    }).mount('#app')
-  </script>
-</body>
-
+          return {
+            query,
+            isLoading,
+            answer,
+            onSubmit,
+            html
+          }
+        },
+      }).mount('#app')
+    </script>
+  </body>
 </html>
