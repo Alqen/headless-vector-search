@@ -1,4 +1,4 @@
-# Alqen Wiki
+# Alqen Wiki Overview
 
 ## Main Keywords:
 
@@ -12,7 +12,7 @@
 
 -   Analytics
 
-**Core Features:**
+## Core Features:
 
 -   **Marketplace Selection:** Target analysis for various global
     e-commerce marketplaces, starting with Amazon and Walmart, with
@@ -41,9 +41,12 @@
     adding in needed columns to fit your business needs across
     platforms.
 
-## Product Research Tools:
+# Alqen Products
 
-### Competitor Lookup:** The Competitor Lookup tool is designed to provide
+## Product Research Tools
+
+### Competitor Lookup:
+The Competitor Lookup tool is designed to provide
 sellers with a comprehensive understanding of their competitors\'
 performance on Amazon. By entering specific criteria such as category,
 keyword, brand, seller, or ASIN, sellers can obtain an accurate market
@@ -88,7 +91,9 @@ overview.
     keyword \"Bamboo pillow\" to understand the competition, pricing,
     ratings, and more.
 
-### Product Research: The Product Research tool is a comprehensive feature
+
+### Product Research: 
+The Product Research tool is a comprehensive feature
 that allows sellers to dive deep into specific products on Amazon. With
 access to a vast database containing over 20,000,000+ listings updated
 daily, sellers can analyze and make informed decisions ranging from
@@ -144,7 +149,6 @@ product selection to competitor tracking.
     market trends, and make informed decisions based on historical data
     and current market conditions.
 
----
 
 ### Market Research:
 The Market Research tool offers sellers a comprehensive overview of over 20,000+ sub-markets across leading e-commerce platforms, starting with Amazon and Walmart. This tool enables sellers to delve deep into specific market segments and understand their dynamics.
@@ -192,9 +196,9 @@ The Market Research tool offers sellers a comprehensive overview of over 20,000+
     make informed decisions about product selection, pricing, and
     marketing strategies.
 
----
 
-**Brand Search Terms:** The BA ( Brand Analytics) Search Terms tool
+### Brand Search Terms:
+The BA ( Brand Analytics) Search Terms tool
 provides sellers with direct data sets from Amazon, ensuring the utmost
 reliability. This tool is designed to offer insights into search terms,
 their performance, and their relevance to specific products or ASINs.
@@ -250,9 +254,8 @@ their performance, and their relevance to specific products or ASINs.
     This will help them optimize their product listings and marketing
     strategies based on real-time and historical data.
 
----
-
-**Related Products:** The \"Related Products\" tool is designed to
+### Related Products:
+The \"Related Products\" tool is designed to
 provide sellers with insights into products that are related to a
 specific product or identifier across major e-commerce platforms,
 starting with Amazon and Walmart. This tool is crucial for understanding
@@ -314,9 +317,9 @@ threats.
     bundles, complementary products, or even potential threats from
     other competing products.
 
----
 
-**Storefront Tracker:** The Storefront Tracker tool allows sellers to
+### Storefront Tracker:
+The Storefront Tracker tool allows sellers to
 monitor and analyze specific storefronts on major e-commerce platforms,
 starting with Amazon. This feature is essential for keeping an eye on
 competitors, understanding their strategies, and being the first to know
@@ -371,9 +374,8 @@ about their newly released products.
     provide insights into the types of products they launch, their sales
     performance, and overall market direction.
 
----
-
-**Product & Keyword Tracker:** The Product & Keyword Tracker tool is
+### Product & Keyword Tracker:
+The Product & Keyword Tracker tool is
 designed to allow sellers to monitor daily changes in various metrics
 such as price, sales, ratings, and BSR for any product on Amazon.
 Additionally, it provides insights into competitor product and keyword
@@ -422,11 +424,11 @@ performance.
     Additionally, they can compare their product\'s performance with
     competitors to identify areas of improvement.
 
----
 
-**Keyword Tools:**
+## Keyword Tools
 
-**Keyword Mining:** The Keyword Mining tool is designed to help sellers
+### Keyword Mining:
+The Keyword Mining tool is designed to help sellers
 tap into Amazon\'s vast keyword database. By leveraging this tool,
 sellers can uncover a multitude of relevant keywords, ensuring their
 products are easily discoverable and stand out in the crowded Amazon
@@ -487,9 +489,8 @@ tool to gather a list of potential keywords. This list can then be
 refined to select the most relevant and high-impact terms, ensuring the
 product is well-optimized for search right from the start.
 
----
-
-**Keyword Research:** Master the keyword game for optimal product
+### Keyword Research:
+Master the keyword game for optimal product
 visibility with the Keyword Research tool. This comprehensive tool
 provides a 360-degree view of keyword dynamics, empowering sellers to
 prioritize high-impact terms and optimize their listings accordingly.
@@ -543,9 +544,10 @@ prioritize high-impact terms and optimize their listings accordingly.
     relevant keywords. This helps in refining SEO strategies and
     ensuring the product remains competitive.
 
----
 
-**Reverse ASIN:** Decode the keyword strategy of any product with the
+
+### Reverse ASIN:
+Decode the keyword strategy of any product with the
 Reverse ASIN tool. By inputting an ASIN, this tool reveals all the
 keywords it ranks for, providing invaluable insights into its SEO
 blueprint.
@@ -595,9 +597,8 @@ blueprint.
     provides insights into the keywords driving its success, helping in
     refining their own product\'s keyword strategy.
 
----
-
-**Reverse Multiple ASINs:** Analyze multiple products simultaneously for
+### Reverse Multiple ASINs:
+Analyze multiple products simultaneously for
 a comprehensive keyword strategy with the Reverse Multiple ASINs tool.
 Similar to Reverse ASIN, but designed for the simultaneous analysis of
 multiple products, offering a broader view of the market\'s keyword
@@ -649,9 +650,9 @@ dynamics.
     provides a comprehensive view of the market\'s keyword dynamics,
     helping in refining their overall keyword strategy.
 
----
 
-**Keyword Explorer:** The Keyword Explorer tool provides sellers with a
+### Keyword Explorer:
+The Keyword Explorer tool provides sellers with a
 comprehensive view of the keyword landscape. It offers insights into
 related terms, their search volumes, and competitiveness, ensuring that
 sellers can navigate the keyword landscape with ease and make informed
@@ -699,9 +700,8 @@ decisions.
     the search volume and competitiveness of each term, they can refine
     their SEO strategy and improve product visibility.
 
----
-
-**Keyword Distribution:** The Keyword Distribution tool allows sellers
+### Keyword Distribution:
+The Keyword Distribution tool allows sellers
 to analyze how specific keywords are distributed across different
 products and categories on Amazon. This provides insights into the reach
 and effectiveness of these keywords, helping sellers understand their
@@ -743,9 +743,9 @@ potential impact.
     category. This helps in tailoring the product listing to match the
     popular terms and improve visibility within the category.
 
----
 
-**Traffic Comparison:** The Traffic Comparison tool offers sellers the
+### Traffic Comparison:
+The Traffic Comparison tool offers sellers the
 ability to compare the traffic dynamics of different keywords. This
 helps in understanding which keywords are the most effective in driving
 traffic, allowing sellers to prioritize their SEO efforts accordingly.
@@ -780,9 +780,8 @@ traffic, allowing sellers to prioritize their SEO efforts accordingly.
     keywords against competitors. This provides insights into areas of
     improvement and potential opportunities.
 
----
-
-**Ads Insights:** The Ads Insights tool provides an in-depth visibility
+### Ads Insights:
+The Ads Insights tool provides an in-depth visibility
 into the structure and performance of Amazon sponsored ads. Sellers can
 investigate the details about the ads their competitors are running,
 gaining valuable insights to refine their advertising strategy.
@@ -821,11 +820,10 @@ gaining valuable insights to refine their advertising strategy.
     understanding the structure and performance of these ads, they can
     refine their own advertising strategy to achieve better ROI.
 
----
+## Free Tools
 
-**Free Tools:**
-
-**Sales Estimation:** The Sales Estimation tool provides sellers with a
+### Sales Estimation:
+The Sales Estimation tool provides sellers with a
 predictive analysis of potential sales for a product based on various
 metrics. This ensures that sellers can make informed decisions regarding
 inventory management and sales strategies.
@@ -858,8 +856,9 @@ inventory management and sales strategies.
     to forecast the potential sales, helping in planning inventory and
     optimizing sales strategies.
 
----
-**Profitability Calculator:** The Profitability Calculator tool assists
+
+### Profitability Calculator:
+The Profitability Calculator tool assists
 sellers in calculating the potential profitability of a product after
 considering all associated costs. This ensures that sellers can price
 their products effectively while maintaining desired profit margins.
@@ -893,8 +892,8 @@ their products effectively while maintaining desired profit margins.
     margins, ensuring that the product is priced competitively while
     maintaining desired profitability.
 
----
-**Listing Builder:**
+
+### Listing Builder:
 
 The Listing Builder tool aids sellers in creating optimized product
 listings. It ensures that listings are equipped with effective keywords
@@ -929,8 +928,7 @@ and descriptions, enhancing product visibility and discoverability.
     Builder to craft an optimized listing, ensuring that the product is
     discoverable and appealing to potential buyers.
 
-\_\_\_\_\_---
-**URL Builder:**
+### URL Builder
 
 The URL Builder tool allows sellers to create optimized URLs for Amazon
 products. These URLs are designed to enhance product visibility and
@@ -964,230 +962,3 @@ drive more traffic to product listings.
     create optimized URLs for their products. This ensures that the
     campaign drives maximum traffic to the product listings, increasing
     the chances of conversions.
-
----
-
-**Extension Tools (NOT IN MVP - INCLUDED) :**
-
-**Keyword Index Checker (Extension):** The Keyword Index Checker tool,
-available as an extension, verifies if specific keywords are indexed by
-Amazon. This ensures that product listings are discoverable and can be
-found by potential customers using those keywords.
-
-**Overview:**
-
--   **Benefit:** Ensure your product listings are discoverable with
-    indexed keywords.
-
--   **Use Case:** Ideal for sellers wanting to verify if their product
-    listings are indexed for specific keywords.
-
--   **Detailed Explanation:** Check if specific keywords are indexed by
-    Amazon, ensuring that your product listings are discoverable and
-    rank effectively.
-
-**Detailed Benefits:**
-
--   **Immediate Verification:** Instantly check the indexing status of
-    specific keywords.
-
--   **Optimize Listings:** Ensure that your product listings are
-    optimized with indexed keywords for better discoverability.
-
--   **Avoid Non-Indexed Terms:** Refrain from using keywords that
-    aren\'t indexed, ensuring effective use of keyword space in
-    listings.
-
-**Detailed Use Case:**
-
--   A seller optimizing their product listing can use the Keyword Index
-    Checker to ensure that the chosen keywords are indexed by Amazon.
-    This ensures that the product listing is discoverable and can rank
-    effectively for those terms.
-
-\_\_\_\_\_---
-**Review Analysis (Extension):** The Review Analysis tool, available as
-an extension, provides a deep dive into product reviews, offering
-insights into customer feedback and potential areas for improvement.
-
-**Overview:**
-
--   **Benefit:** Gain insights from customer feedback to improve
-    products.
-
--   **Use Case:** Ideal for sellers wanting to understand customer
-    feedback and improve their products based on reviews.
-
--   **Detailed Explanation:** Analyze product reviews to gain insights
-    into what customers love and areas that need improvement.
-
-**Detailed Benefits:**
-
--   **Sentiment Analysis:** Understand the overall sentiment of reviews,
-    whether positive, negative, or neutral.
-
--   **Feedback Themes:** Identify common themes or issues raised by
-    customers in reviews.
-
--   **Product Improvement:** Use feedback to make necessary product
-    improvements and enhance customer satisfaction.
-
-**Detailed Use Case:**
-
--   A seller receiving mixed reviews on a product can use the Review
-    Analysis tool to understand specific areas of concern. This feedback
-    can then be used to make necessary product improvements, ensuring
-    better customer satisfaction in the future.
-
----
-**Download Reviews & QA (Extension):** The Download Reviews & QA tool,
-available as an extension, allows sellers to download product reviews
-and Q&A for a deeper analysis. This ensures that sellers can maintain a
-record of feedback and use it for future product improvements.
-
-**Overview:**
-
--   **Benefit:** Maintain a comprehensive record of customer feedback
-    for in-depth analysis.
-
--   **Use Case:** Ideal for sellers wanting to download and analyze
-    product reviews and Q&A in detail.
-
--   **Detailed Explanation:** Download product reviews and Q&A, ensuring
-    you have a record of customer feedback for deeper analysis and
-    product improvements.
-
-**Detailed Benefits:**
-
--   **Easy Downloads:** Download reviews and Q&A in a user-friendly
-    format for easy analysis.
-
--   **Historical Feedback:** Maintain a record of historical feedback to
-    track product performance over time.
-
--   **Informed Decisions:** Use feedback to make informed decisions
-    regarding product improvements and customer concerns.
-
-**Detailed Use Case:**
-
--   A seller planning to revamp a product can use the Download Reviews &
-    QA tool to download all past reviews and Q&A. This feedback can then
-    be analyzed in detail to understand customer concerns and areas of
-    improvement, ensuring the revamped product meets customer
-    expectations.
-
----
-
-**Amazon Trademark Protection:** The Amazon Trademark Protection tool
-assists sellers in ensuring their brand\'s integrity on the platform. It
-helps in identifying potential trademark infringements, ensuring that
-your brand remains protected from counterfeiters and unauthorized
-sellers.
-
-**Overview:**
-
--   **Benefit:** Safeguard your brand\'s reputation and integrity on
-    Amazon.
-
--   **Use Case:** Ideal for brand owners wanting to monitor and protect
-    their trademarks on Amazon.
-
--   **Detailed Explanation:** Monitor potential trademark infringements
-    on Amazon, ensuring that your brand remains protected from
-    counterfeit products and unauthorized sellers.
-
-**Detailed Benefits:**
-
--   **Real-time Monitoring:** Continuously monitor Amazon for potential
-    trademark infringements.
-
--   **Instant Alerts:** Receive alerts for potential infringements,
-    allowing for swift action.
-
--   **Protect Brand Reputation:** Ensure that customers receive genuine
-    products, maintaining your brand\'s reputation.
-
--   **Combat Counterfeiters:** Take action against unauthorized sellers
-    and counterfeit products, safeguarding your brand\'s integrity.
-
-**Detailed Use Case:**
-
--   A brand owner concerned about counterfeit products can use the
-    Amazon Trademark Protection tool to monitor for potential
-    infringements. Upon identifying unauthorized sellers or counterfeit
-    products, they can take swift action, ensuring that customers always
-    receive genuine products.
-
----
-**Request Review (Extension):** The Request Review tool, available as an
-extension, facilitates sellers in soliciting reviews from customers.
-This tool streamlines the process, helping improve product ratings and
-trust.
-
-**Overview:**
-
--   **Benefit:** Boost your product ratings by soliciting genuine
-    reviews.
-
--   **Use Case:** Ideal for sellers wanting to improve their product
-    ratings and build trust among potential customers.
-
--   **Detailed Explanation:** Streamline the process of requesting
-    reviews from customers, ensuring that you receive genuine feedback
-    and improve product ratings.
-
-**Detailed Benefits:**
-
--   **Automated Requests:** Automate the process of requesting reviews,
-    saving time and effort.
-
--   **Enhance Product Trust:** Genuine reviews help in building trust
-    among potential customers.
-
--   **Improve Ratings:** Positive reviews can significantly boost
-    product ratings, enhancing its visibility and sales potential.
-
-**Detailed Use Case:**
-
-A seller with a newly launched product can use the Request Review tool
-to solicit feedback from initial customers. This feedback can help in
-building trust among potential customers and improving the product\'s
-overall rating on Amazon.
-
----
-**Quick Preview (Extension):** The Quick Preview tool, available as an
-extension, offers sellers a swift overview of product data directly on
-the Amazon page. This ensures that sellers can make informed decisions
-without navigating away from the product page.
-
-**Overview:**
-
--   **Benefit:** Access essential product data instantly without leaving
-    the Amazon page.
-
--   **Use Case:** Ideal for sellers wanting a quick overview of product
-    data while browsing Amazon.
-
--   **Detailed Explanation:** Get a swift glance at essential product
-    data directly on the Amazon page, ensuring you have the information
-    you need at your fingertips.
-
-**Detailed Benefits:**
-
--   **Instant Data Access:** View essential product data without
-    navigating to a different page or tool.
-
--   **Efficient Browsing:** Make informed decisions while browsing
-    products on Amazon.
-
--   **Data at Your Fingertips:** Whether it\'s sales data, reviews, or
-    ratings, get the information you need instantly.
-
-**Detailed Use Case:**
-
-A seller researching potential products to sell can use the Quick
-Preview tool to instantly access essential data about a product. This
-ensures that they can make quick and informed decisions without the need
-to navigate away from the Amazon page.
-
----
